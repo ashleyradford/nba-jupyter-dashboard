@@ -31,7 +31,7 @@ To run the code and analysis simply download `widgets_presentations.ipynb` and/o
 
 In the future, would like for `get_nba_data()` to not rely on wget function.
 
-## Outside Sources
+## References
 
 For parameter specifications see [Endpoint Documentation](https://github.com/seemethere/nba_py/wiki/stats.nba.com-Endpoint-Documentation).  
 For shots data retrieval process in `shooting_patterns.ipynb` refer to [arXiv:1401.0942](https://arxiv.org/abs/1401.0942).  
