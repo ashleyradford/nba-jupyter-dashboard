@@ -11,7 +11,17 @@ You will need to have:
 
 ## Season Setup
 
-Some variables to consider changing in `helper_basketball.py` are `current_year` and `current_season`. Directions are provided in the comments above the variables (follow strictly for results). Note that both parts of the project were created (and still presented here) under 2017 current year and 2016-17 current season. Results post `Base Vector Experimentation` section in `shooting_patterns.ipynb` will be made void when changing these variables (originally only for presentation), but can be easily replicated following the original code.
+Some variables to consider changing in `helper_basketball.py` are `current_year` and `latest_season`. Directions are provided in the comments above the variables (follow strictly for results). Note that both parts of the project were created (and still presented here) under 2017 current year and 2016-17 latest season. Results post `Base Vector Experimentation` section in `shooting_patterns.ipynb` will be made void when changing these variables (originally only for presentation), but can be easily replicated following the original code.
+
+Note: in `shooting_patterns.ipynb`, the shots retrieval process is long and time consuming, and so when running it initially, a pickle file is created. Since this project was cetnered around the 2016-17 season, a pickle file of this year is provided above -- see `allshots2016-17.pkl`.  
+For seasons where no pickle file has been created, be sure to uncomment and run the cell that starts:
+
+```
+# run me if no pickle file for selected season
+shots_params = {'PlayerID':'201939',
+                'PlayerPosition':'',
+                'Season': h.latest_season,
+```
 
 ## Running the Code
 
