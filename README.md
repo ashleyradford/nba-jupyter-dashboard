@@ -23,6 +23,8 @@ In the future, would like for `get_nba_data()` to not rely on wget function.
 
 ## Outside Sources
 
-Special thanks to Professor Sang-Yun Oh at UCSB for initial definitions in `helper_basketball.py` and guidance throughout the project.
 For parameter specifications see [Endpoint Documentation](https://github.com/seemethere/nba_py/wiki/stats.nba.com-Endpoint-Documentation)
+
 For shots data retrieval process in `shooting_patterns.ipynb` refer to [arXiv:1401.0942](https://arxiv.org/abs/1401.0942)
+
+Special thanks to Professor Sang-Yun Oh at UCSB for initial definitions in `helper_basketball.py` and guidance throughout the project.
