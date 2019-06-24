@@ -1,10 +1,3 @@
-# change to desired year, code was based on current year 2017 and 2016-17 latest season
-# this will affect the starting widget selections in nba_widgest.ipynb, change accordingly
-# note: current_year is 20BB when latest_season is 20AA-BB
-current_year = 2017
-latest_season = '2016-17'
-
-
 def get_nba_data(endpoint, params, return_url=False):
     
     """Retrieves data from http://stats.nba.com
@@ -193,4 +186,3 @@ def plot_shotchart(hist_counts, xedges, yedges, ax=None, use_log=False):
     draw_court(ax)
     
     return(ax)
-
