@@ -1,6 +1,7 @@
 # NBA Player and Shooting Analysis
 
-This project served as my introduction to dashboards with Jupyter Notebook. The final NBA dashboard is constructed in `nba_jupyter_dash.ipynb`. The other notebooks are my own personal guides to my widget and model building. In particular, `widgets_presentations.ipynb`, was my first take at widget creation. It is an interactive jupyter notebook where the user is able to specify a team, player, and game. Once specified, total shots made each game by the selected player will be presented as a bar graph. A separate line graph will also be displayed examining the percentage of shots made each quarter during that selected game. The second jupyter notebook, `shooting_patterns.ipynb`, has an exploratory data analysis approach focused on modeling player shooting styles. Non-negative matrix factorization and its corresponding base vectors are used to determine player shooting styles. After which, a correlation matrix is implemented to determine similarities and differences between the players themselves, and finally, hierarchical clustering is used to group all players (of the selected season -- see below) into different "player type" groups. These two notebooks work independently of each other. Both are combined and used in `nba_jupyter_dash.ipynb`.
+This project served as my introduction to dashboards with Jupyter Notebook. The final NBA dashboard is constructed in `nba_jupyter_dash.ipynb`. The other notebooks are my own personal guides to my widget and model building. In particular, `widgets_presentations.ipynb`, was my first take at widget creation. It is an interactive jupyter notebook where the user is able to specify a team, player, and game. Once specified, total shots made each game by the selected player will be presented as a bar graph. A separate line graph will also be displayed examining the percentage of shots made each quarter during that selected game. 
+The second jupyter notebook, `shooting_patterns.ipynb`, has an exploratory data analysis approach focused on modeling player shooting styles. Non-negative matrix factorization and its corresponding base vectors are used to determine player shooting styles. After which, a correlation matrix is implemented to determine similarities and differences between the players themselves, and finally, hierarchical clustering is used to group all players (of the selected season -- see below) into different "player type" groups. These two notebooks work independently of each other. Both are combined and used in `nba_jupyter_dash.ipynb`.
 
 ## Requirements
 
@@ -8,9 +9,11 @@ You will need to have:
 - Jupyter Notebook
 - `helper_basketball.py` (provided above)
 - wget installed (if not already working on linux machine)
-- [Jupyter Dashboards Layout Extension](https://github.com/jupyter/dashboards) downloaded (for dashboard view).
+- [Jupyter Dashboards Layout Extension](https://github.com/jupyter/dashboards) downloaded (for dashboard view)
 
-## Season Setup for `widgets_presentations.ipynb` and `shooting_patterns.ipynb`
+## Season Setup 
+
+#### Only applicable with `widgets_presentations.ipynb` and `shooting_patterns.ipynb`!
  
 Some variables to consider changing are `current_year` and `latest_season`. Note that both parts of the project were created under 2017 current year and 2016-17 latest season. Code and results after the `Base Vector Experimentation` section in `shooting_patterns.ipynb` will not work when changing these variables (originally only for presentation), but can be easily replicated following the original code.
 
