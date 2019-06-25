@@ -38,7 +38,7 @@ shots_params = {'PlayerID':'201939',
 ## Running the Code
 
 To run the setup and analysis parts simply download `widgets_presentations.ipynb` and/or `shooting_patterns.ipynb` and run via Jupyter Notebook.  
-To run the dashboard download `nba_jupyter_dash.ipynb` and run the file. Switch to dashboard view (once again, only availabele with [this](https://github.com/jupyter/dashboards) and the dashboard will be ready for use for however long and however many selections. Enjoy :)
+To run the dashboard download `nba_jupyter_dash.ipynb` and run the file. Switch to dashboard view (possible with this [download](https://github.com/jupyter/dashboards)), and the dashboard will be ready for your use for however long and however many selections. Enjoy :)
 
 ## Future work
 
