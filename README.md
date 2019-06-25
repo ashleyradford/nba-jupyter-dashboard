@@ -13,9 +13,9 @@ You will need to have:
 
 ## Season Setup 
 
-#### Only applicable with `widgets_presentations.ipynb` and `shooting_patterns.ipynb`!
+###### Only applicable with `widgets_presentations.ipynb` and `shooting_patterns.ipynb`!
  
-Some variables to consider changing are `current_year` and `latest_season`. Note that both parts of the project were created under 2017 current year and 2016-17 latest season. Code and results after the `Base Vector Experimentation` section in `shooting_patterns.ipynb` will not work when changing these variables (originally only for presentation), but can be easily replicated following the original code.
+Some variables to consider changing are current_year and latest_season. Note that both parts of the project were created under 2017 current year and 2016-17 latest season. Code and results after the "Base Vector Experimentation" section in `shooting_patterns.ipynb` will not work when changing these variables (originally only for presentation), but can be easily replicated following the original code.
 
 ```
 # choose season and year
